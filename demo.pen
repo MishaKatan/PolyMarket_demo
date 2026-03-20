@@ -40,84 +40,27 @@
               "alignItems": "center",
               "children": [
                 {
-                  "type": "icon_font",
-                  "id": "R250B",
-                  "name": "logoIcon",
+                  "type": "frame",
+                  "id": "q1j6Y",
+                  "name": "logo1",
                   "width": 28,
                   "height": 28,
-                  "iconFontName": "hexagon",
-                  "iconFontFamily": "lucide",
-                  "fill": "$accent-blue"
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/icon-radar.png",
+                    "mode": "fit"
+                  }
                 },
                 {
                   "type": "text",
                   "id": "RqOkE",
                   "name": "logoText",
                   "fill": "$text-primary",
-                  "content": "Polymarket",
+                  "content": "PolyVote",
                   "fontFamily": "Inter",
                   "fontSize": 20,
                   "fontWeight": "700"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "xlehf",
-              "name": "searchBar",
-              "width": 400,
-              "height": 40,
-              "fill": "#F3F4F6",
-              "cornerRadius": 8,
-              "gap": 8,
-              "padding": [
-                0,
-                14
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon_font",
-                  "id": "YUZB1",
-                  "name": "searchIcon",
-                  "width": 16,
-                  "height": 16,
-                  "iconFontName": "search",
-                  "iconFontFamily": "lucide",
-                  "fill": "$text-muted"
-                },
-                {
-                  "type": "text",
-                  "id": "BFV99",
-                  "name": "searchText",
-                  "fill": "$text-muted",
-                  "content": "Search polymarkets...",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "frame",
-                  "id": "3nj33",
-                  "name": "searchSlash",
-                  "width": 24,
-                  "height": 24,
-                  "fill": "#E5E7EB",
-                  "cornerRadius": 4,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "nEtUf",
-                      "name": "slashText",
-                      "fill": "$text-secondary",
-                      "content": "/",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
                 }
               ]
             },
@@ -154,7 +97,6 @@
                   "name": "signupBtn",
                   "height": 36,
                   "fill": "$btn-primary-bg",
-                  "cornerRadius": 8,
                   "padding": [
                     0,
                     16
@@ -216,8 +158,9 @@
               "fill": "$text-primary",
               "content": "Trending",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "600"
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -226,8 +169,9 @@
               "fill": "$text-secondary",
               "content": "Breaking",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -236,8 +180,9 @@
               "fill": "$text-secondary",
               "content": "New",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "rectangle",
@@ -254,8 +199,9 @@
               "fill": "$text-secondary",
               "content": "Politics",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -264,8 +210,9 @@
               "fill": "$text-secondary",
               "content": "Sports",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -274,8 +221,9 @@
               "fill": "$text-secondary",
               "content": "Crypto",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -284,8 +232,9 @@
               "fill": "$text-secondary",
               "content": "Iran",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -294,8 +243,9 @@
               "fill": "$text-secondary",
               "content": "Finance",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -304,8 +254,9 @@
               "fill": "$text-secondary",
               "content": "Geopolitics",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -314,8 +265,9 @@
               "fill": "$text-secondary",
               "content": "Tech",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -324,8 +276,9 @@
               "fill": "$text-secondary",
               "content": "Culture",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -334,8 +287,9 @@
               "fill": "$text-secondary",
               "content": "Economy",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -344,8 +298,9 @@
               "fill": "$text-secondary",
               "content": "Weather",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             },
             {
               "type": "text",
@@ -354,37 +309,9 @@
               "fill": "$text-secondary",
               "content": "Elections",
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "500"
-            },
-            {
-              "type": "frame",
-              "id": "4uMzR",
-              "name": "moreWrap",
-              "gap": 4,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "f8e1C",
-                  "name": "moreText",
-                  "fill": "$text-secondary",
-                  "content": "More",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "icon_font",
-                  "id": "aQ9sS",
-                  "name": "moreIcon",
-                  "width": 14,
-                  "height": 14,
-                  "iconFontName": "chevron-down",
-                  "iconFontFamily": "lucide",
-                  "fill": "$text-secondary"
-                }
-              ]
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.3
             }
           ]
         },
@@ -393,7 +320,7 @@
           "id": "w0T7f",
           "name": "Title Row",
           "width": "fill_container",
-          "height": 56,
+          "height": 52,
           "padding": [
             0,
             32
@@ -408,8 +335,9 @@
               "fill": "$text-primary",
               "content": "All markets",
               "fontFamily": "Inter",
-              "fontSize": 22,
-              "fontWeight": "700"
+              "fontSize": 20,
+              "fontWeight": "800",
+              "letterSpacing": 0.5
             },
             {
               "type": "frame",
@@ -443,7 +371,6 @@
                   "id": "rbzuX",
                   "name": "suggestBtn",
                   "height": 32,
-                  "cornerRadius": 8,
                   "stroke": {
                     "align": "inside",
                     "thickness": 1,
@@ -515,7 +442,7 @@
               "gap": 16,
               "children": [
                 {
-                  "id": "n9jNK",
+                  "id": "eH1mz",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
@@ -524,52 +451,77 @@
                   "x": 0,
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "gbVfx": {
+                      "x": 14,
+                      "y": 14
+                    },
+                    "B4OAo": {
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "y": 0,
-                      "content": "2026 NCAA Tournament Winner"
+                      "y": 23.5,
+                      "content": "2026 NCAA Tournament Winner",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
                       "width": "fill_container",
-                      "y": 116
+                      "y": 102,
+                      "height": "fit_content"
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
                       "width": "fill_container",
-                      "y": 166
+                      "y": 130,
+                      "height": "fit_content"
                     },
                     "EHyXE": {
-                      "content": "81% Yes"
+                      "content": "81% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 100,
-                      "content": "19% No"
+                      "x": 118,
+                      "content": "19% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 195,
-                      "content": "2,341 votes"
+                      "x": 218,
+                      "content": "2,341 votes",
+                      "y": 8
                     }
                   }
                 },
                 {
-                  "id": "IaQ6g",
+                  "id": "40pgb",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
@@ -578,58 +530,79 @@
                   "x": 308,
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#FFF7ED"
+                      "fill": "#FFF7ED",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "bitcoin"
+                      "iconFontName": "bitcoin",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "y": 9,
-                      "content": "BTC 5 Minute Up or Down"
+                      "y": 23.5,
+                      "content": "BTC 5 Minute Up or Down",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
                       "width": "fill_container",
-                      "y": 116
+                      "y": 102,
+                      "height": "fit_content"
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
                       "width": "fill_container",
-                      "y": 166
+                      "y": 130,
+                      "height": "fit_content"
                     },
                     "EHyXE": {
-                      "content": "52% Yes"
+                      "content": "52% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 104,
-                      "content": "48% No"
+                      "x": 121.5,
+                      "content": "48% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 204,
-                      "content": "987 votes"
+                      "x": 226,
+                      "content": "987 votes",
+                      "y": 8
                     }
                   }
                 },
                 {
-                  "id": "KCkwa",
+                  "id": "4KUHd",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
@@ -638,109 +611,155 @@
                   "x": 616,
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#FEF2F2"
+                      "fill": "#FEF2F2",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "globe"
+                      "iconFontName": "globe",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "y": 0,
-                      "content": "Will the US confirm that aliens exist before 2027?"
+                      "y": 15,
+                      "content": "Will the US confirm that aliens exist before 2027?",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
                       "width": "fill_container",
-                      "y": 116
+                      "y": 102,
+                      "height": "fit_content"
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
                       "width": "fill_container",
-                      "y": 166
+                      "y": 130,
+                      "height": "fit_content"
                     },
                     "EHyXE": {
-                      "content": "19% Yes"
+                      "content": "19% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 100,
-                      "content": "81% No"
+                      "x": 118.5,
+                      "content": "81% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 195,
-                      "content": "4,512 votes"
+                      "x": 219,
+                      "content": "4,512 votes",
+                      "y": 8
                     }
                   }
                 },
                 {
-                  "id": "6X5hs",
+                  "id": "AW5kh",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
                   "name": "c4",
                   "x": 924,
+                  "height": "fit_content",
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#F0FDF4"
+                      "fill": "#F0FDF4",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "fuel"
+                      "iconFontName": "fuel",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "content": "Will Crude Oil hit $100 by end of March?"
+                      "y": 15,
+                      "content": "Will Crude Oil hit $100 by end of March?",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 102
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 130
                     },
                     "EHyXE": {
-                      "content": "87% Yes"
+                      "content": "87% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 100,
-                      "content": "13% No"
+                      "x": 118.5,
+                      "content": "13% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 193,
-                      "content": "3,789 votes"
+                      "x": 217,
+                      "content": "3,789 votes",
+                      "y": 8
                     }
                   }
                 }
@@ -754,7 +773,7 @@
               "gap": 16,
               "children": [
                 {
-                  "id": "b9PN6",
+                  "id": "PJBts",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
@@ -763,58 +782,79 @@
                   "x": 0,
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#FEF2F2"
+                      "fill": "#FEF2F2",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "flag"
+                      "iconFontName": "flag",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "y": 9,
-                      "content": "US forces enter Iran by..?"
+                      "y": 23.5,
+                      "content": "US forces enter Iran by..?",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
                       "width": "fill_container",
-                      "y": 116
+                      "y": 102,
+                      "height": "fit_content"
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
                       "width": "fill_container",
-                      "y": 166
+                      "y": 130,
+                      "height": "fit_content"
                     },
                     "EHyXE": {
-                      "content": "71% Yes"
+                      "content": "71% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 98.5,
-                      "content": "29% No"
+                      "x": 118,
+                      "content": "29% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 196,
-                      "content": "5,102 votes"
+                      "x": 220,
+                      "content": "5,102 votes",
+                      "y": 8
                     }
                   }
                 },
                 {
-                  "id": "MRWz1",
+                  "id": "ioscF",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
@@ -823,58 +863,79 @@
                   "x": 308,
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#EFF6FF"
+                      "fill": "#EFF6FF",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "gamepad-2"
+                      "iconFontName": "gamepad-2",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "y": 9,
-                      "content": "JD Gaming vs LOUD — Esports"
+                      "y": 23.5,
+                      "content": "JD Gaming vs LOUD — Esports",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
                       "width": "fill_container",
-                      "y": 116
+                      "y": 102,
+                      "height": "fit_content"
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
                       "width": "fill_container",
-                      "y": 166
+                      "y": 130,
+                      "height": "fit_content"
                     },
                     "EHyXE": {
-                      "content": "98% Yes"
+                      "content": "98% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 109.5,
-                      "content": "2% No"
+                      "x": 127,
+                      "content": "2% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 206,
-                      "content": "312 votes"
+                      "x": 228,
+                      "content": "312 votes",
+                      "y": 8
                     }
                   }
                 },
                 {
-                  "id": "VF7xz",
+                  "id": "29BCI",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
@@ -883,109 +944,155 @@
                   "x": 616,
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#FFF7ED"
+                      "fill": "#FFF7ED",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "circle-dot"
+                      "iconFontName": "circle-dot",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "y": 0,
-                      "content": "TCU Horned Frogs vs Ohio State Buckeyes"
+                      "y": 15,
+                      "content": "TCU Horned Frogs vs Ohio State Buckeyes",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
                       "width": "fill_container",
-                      "y": 116
+                      "y": 102,
+                      "height": "fit_content"
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
                       "width": "fill_container",
-                      "y": 166
+                      "y": 130,
+                      "height": "fit_content"
                     },
                     "EHyXE": {
-                      "content": "44% Yes"
+                      "content": "44% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 100,
-                      "content": "56% No"
+                      "x": 118.5,
+                      "content": "56% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 195,
-                      "content": "1,890 votes"
+                      "x": 218,
+                      "content": "1,890 votes",
+                      "y": 8
                     }
                   }
                 },
                 {
-                  "id": "Nwh9R",
+                  "id": "ui5ab",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
                   "name": "c8",
                   "x": 924,
+                  "height": "fit_content",
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#F0FDF4"
+                      "fill": "#F0FDF4",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "medal"
+                      "iconFontName": "medal",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "content": "South Florida Bulls vs Louisville Cardinals"
+                      "y": 15,
+                      "content": "South Florida Bulls vs Louisville Cardinals",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 102
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 130
                     },
                     "EHyXE": {
-                      "content": "38% Yes"
+                      "content": "38% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 99,
-                      "content": "62% No"
+                      "x": 118,
+                      "content": "62% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 193,
-                      "content": "2,567 votes"
+                      "x": 217,
+                      "content": "2,567 votes",
+                      "y": 8
                     }
                   }
                 }
@@ -999,7 +1106,7 @@
               "gap": 16,
               "children": [
                 {
-                  "id": "g6BOc",
+                  "id": "JKRdw",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
@@ -1008,58 +1115,79 @@
                   "x": 0,
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#EFF6FF"
+                      "fill": "#EFF6FF",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "award"
+                      "iconFontName": "award",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "y": 0,
-                      "content": "VCU Rams vs North Carolina Tar Heels"
+                      "y": 15,
+                      "content": "VCU Rams vs North Carolina Tar Heels",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
                       "width": "fill_container",
-                      "y": 116
+                      "y": 102,
+                      "height": "fit_content"
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
                       "width": "fill_container",
-                      "y": 166
+                      "y": 130,
+                      "height": "fit_content"
                     },
                     "EHyXE": {
-                      "content": "45% Yes"
+                      "content": "45% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 100.5,
-                      "content": "55% No"
+                      "x": 118.5,
+                      "content": "55% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 195,
-                      "content": "1,456 votes"
+                      "x": 218,
+                      "content": "1,456 votes",
+                      "y": 8
                     }
                   }
                 },
                 {
-                  "id": "j4xoA",
+                  "id": "g5EQn",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
@@ -1068,58 +1196,79 @@
                   "x": 308,
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#FEF2F2"
+                      "fill": "#FEF2F2",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "crosshair"
+                      "iconFontName": "crosshair",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "y": 9,
-                      "content": "MOUZ vs TheMongolz — CS2"
+                      "y": 23.5,
+                      "content": "MOUZ vs TheMongolz — CS2",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
                       "width": "fill_container",
-                      "y": 116
+                      "y": 102,
+                      "height": "fit_content"
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
                       "width": "fill_container",
-                      "y": 166
+                      "y": 130,
+                      "height": "fit_content"
                     },
                     "EHyXE": {
-                      "content": "75% Yes"
+                      "content": "75% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 103,
-                      "content": "25% No"
+                      "x": 121.5,
+                      "content": "25% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 203,
-                      "content": "834 votes"
+                      "x": 225,
+                      "content": "834 votes",
+                      "y": 8
                     }
                   }
                 },
                 {
-                  "id": "rXBtg",
+                  "id": "bHtA9",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
@@ -1128,109 +1277,155 @@
                   "x": 616,
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#FFF7ED"
+                      "fill": "#FFF7ED",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "zap"
+                      "iconFontName": "zap",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "y": 9,
-                      "content": "Pistons vs Wizards — NBA"
+                      "y": 23.5,
+                      "content": "Pistons vs Wizards — NBA",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
                       "width": "fill_container",
-                      "y": 116
+                      "y": 102,
+                      "height": "fit_content"
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
                       "width": "fill_container",
-                      "y": 166
+                      "y": 130,
+                      "height": "fit_content"
                     },
                     "EHyXE": {
-                      "content": "90% Yes"
+                      "content": "90% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 105.5,
-                      "content": "10% No"
+                      "x": 123.5,
+                      "content": "10% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 204,
-                      "content": "678 votes"
+                      "x": 226,
+                      "content": "678 votes",
+                      "y": 8
                     }
                   }
                 },
                 {
-                  "id": "FRGyI",
+                  "id": "sOk3M",
                   "type": "ref",
                   "ref": "SPl29",
                   "width": "fill_container",
                   "name": "c12",
                   "x": 924,
+                  "height": "fit_content",
                   "descendants": {
                     "7Kiiq": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content"
                     },
                     "gbVfx": {
-                      "fill": "#FEF2F2"
+                      "fill": "#FEF2F2",
+                      "x": 14,
+                      "y": 14
                     },
                     "B4OAo": {
-                      "iconFontName": "map"
+                      "iconFontName": "map",
+                      "x": 9,
+                      "y": 9
                     },
                     "NQVt6": {
                       "width": "fill_container",
-                      "content": "Will the U.S. invade Cuba in 2026?"
+                      "y": 15,
+                      "content": "Will the U.S. invade Cuba in 2026?",
+                      "x": 60
                     },
-                    "bbUki": {
-                      "width": "fill_container"
+                    "eUXZ6": {
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 58
+                    },
+                    "tdagg": {
+                      "width": "fill_container",
+                      "x": 14
                     },
                     "CetoR": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 102
                     },
                     "1jeGo": {
-                      "width": "fill_container"
+                      "width": 131,
+                      "x": 14
                     },
                     "mbJrp": {
-                      "x": 51.5
+                      "x": 53,
+                      "y": 7.5
                     },
                     "e2ZtD": {
                       "width": "fill_container",
-                      "x": 134
+                      "x": 150
                     },
                     "9D9Yu": {
-                      "x": 54
+                      "x": 54.5,
+                      "y": 7.5
                     },
                     "Nsxt5": {
-                      "width": "fill_container"
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "y": 130
                     },
                     "EHyXE": {
-                      "content": "25% Yes"
+                      "content": "25% Yes",
+                      "x": 14,
+                      "y": 8
                     },
                     "DEgVO": {
-                      "x": 100,
-                      "content": "75% No"
+                      "x": 118.5,
+                      "content": "75% No",
+                      "y": 8
                     },
                     "lKhqB": {
-                      "x": 195,
-                      "content": "6,210 votes"
+                      "x": 218,
+                      "content": "6,210 votes",
+                      "y": 8
                     }
                   }
                 }
@@ -1249,22 +1444,32 @@
       "reusable": true,
       "width": 280,
       "fill": "$bg-card",
-      "cornerRadius": 12,
       "stroke": {
         "align": "inside",
         "thickness": 1,
         "fill": "$border-card"
       },
       "layout": "vertical",
-      "gap": 14,
-      "padding": 16,
       "children": [
         {
           "type": "frame",
           "id": "7Kiiq",
           "name": "Card Header",
           "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$border-subtle"
+          },
           "gap": 10,
+          "padding": [
+            14,
+            14,
+            8,
+            14
+          ],
           "alignItems": "center",
           "children": [
             {
@@ -1273,8 +1478,7 @@
               "name": "Card Icon",
               "width": 36,
               "height": 36,
-              "fill": "#EEF2FF",
-              "cornerRadius": 8,
+              "fill": "$badge-bg",
               "justifyContent": "center",
               "alignItems": "center",
               "children": [
@@ -1300,38 +1504,58 @@
               "content": "2026 NCAA Tournament Winner",
               "lineHeight": 1.3,
               "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "600"
+              "fontSize": 13,
+              "fontWeight": "700",
+              "letterSpacing": 0.3
             }
           ]
         },
         {
-          "type": "text",
-          "id": "bbUki",
-          "name": "Card Question",
-          "fill": "$text-secondary",
-          "textGrowth": "fixed-width",
+          "type": "frame",
+          "id": "eUXZ6",
+          "name": "Question Wrap",
           "width": "fill_container",
-          "content": "Are you interested in adding this event to Polymarket?",
-          "lineHeight": 1.4,
-          "fontFamily": "Inter",
-          "fontSize": 13
+          "layout": "vertical",
+          "padding": [
+            0,
+            14,
+            10,
+            14
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "tdagg",
+              "name": "Card Question",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Are you interested in adding this event to PolyVote?",
+              "lineHeight": 1.4,
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
         },
         {
           "type": "frame",
           "id": "CetoR",
           "name": "Card Buttons",
           "width": "fill_container",
-          "gap": 8,
+          "gap": 5,
+          "padding": [
+            0,
+            14
+          ],
           "children": [
             {
               "type": "frame",
               "id": "1jeGo",
               "name": "Yes Button",
-              "width": "fill_container",
-              "height": 36,
-              "fill": "$green-bg",
-              "cornerRadius": 8,
+              "width": 125,
+              "height": 28,
+              "fill": "#1B2CC1",
               "gap": 6,
               "justifyContent": "center",
               "alignItems": "center",
@@ -1341,10 +1565,11 @@
                   "id": "mbJrp",
                   "name": "yesTxt",
                   "fill": "$green-text",
-                  "content": "Yes",
+                  "content": "YES",
                   "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "600"
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
                 }
               ]
             },
@@ -1353,9 +1578,8 @@
               "id": "e2ZtD",
               "name": "No Button",
               "width": "fill_container",
-              "height": 36,
-              "fill": "$red-bg",
-              "cornerRadius": 8,
+              "height": 28,
+              "fill": "#2A2A2A",
               "gap": 6,
               "justifyContent": "center",
               "alignItems": "center",
@@ -1365,10 +1589,11 @@
                   "id": "9D9Yu",
                   "name": "noTxt",
                   "fill": "$red-text",
-                  "content": "No",
+                  "content": "NO",
                   "fontFamily": "Inter",
-                  "fontSize": 13,
-                  "fontWeight": "600"
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
                 }
               ]
             }
@@ -1379,6 +1604,19 @@
           "id": "Nsxt5",
           "name": "Card Stats",
           "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$border-subtle"
+          },
+          "padding": [
+            8,
+            14,
+            10,
+            14
+          ],
           "justifyContent": "space_between",
           "alignItems": "center",
           "children": [
@@ -1386,21 +1624,21 @@
               "type": "text",
               "id": "EHyXE",
               "name": "Yes Pct",
-              "fill": "$green-text",
+              "fill": "#1B2CC1",
               "content": "73% Yes",
               "fontFamily": "Inter",
-              "fontSize": 12,
-              "fontWeight": "500"
+              "fontSize": 11,
+              "fontWeight": "600"
             },
             {
               "type": "text",
               "id": "DEgVO",
               "name": "No Pct",
-              "fill": "$red-text",
+              "fill": "#555555",
               "content": "27% No",
               "fontFamily": "Inter",
-              "fontSize": 12,
-              "fontWeight": "500"
+              "fontSize": 11,
+              "fontWeight": "600"
             },
             {
               "type": "text",
@@ -1409,7 +1647,8 @@
               "fill": "$text-muted",
               "content": "1,247 votes",
               "fontFamily": "Inter",
-              "fontSize": 12
+              "fontSize": 11,
+              "fontWeight": "normal"
             }
           ]
         }
@@ -1454,84 +1693,27 @@
               "alignItems": "center",
               "children": [
                 {
-                  "type": "icon_font",
-                  "id": "VErt7",
-                  "name": "logoIcon",
+                  "type": "frame",
+                  "id": "VHypS",
+                  "name": "logo2",
                   "width": 28,
                   "height": 28,
-                  "iconFontName": "hexagon",
-                  "iconFontFamily": "lucide",
-                  "fill": "$accent-blue"
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/icon-radar.png",
+                    "mode": "fit"
+                  }
                 },
                 {
                   "type": "text",
                   "id": "Xfnou",
                   "name": "logoText",
                   "fill": "$text-primary",
-                  "content": "Polymarket",
+                  "content": "PolyVote",
                   "fontFamily": "Inter",
                   "fontSize": 20,
                   "fontWeight": "700"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "3Ucv0",
-              "name": "searchBar",
-              "width": 400,
-              "height": 40,
-              "fill": "#F3F4F6",
-              "cornerRadius": 8,
-              "gap": 8,
-              "padding": [
-                0,
-                14
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon_font",
-                  "id": "jJeF6",
-                  "name": "searchIcon",
-                  "width": 16,
-                  "height": 16,
-                  "iconFontName": "search",
-                  "iconFontFamily": "lucide",
-                  "fill": "$text-muted"
-                },
-                {
-                  "type": "text",
-                  "id": "ITx2n",
-                  "name": "searchText",
-                  "fill": "$text-muted",
-                  "content": "Search polymarkets...",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "frame",
-                  "id": "l6KLO",
-                  "name": "searchSlash",
-                  "width": 24,
-                  "height": 24,
-                  "fill": "#E5E7EB",
-                  "cornerRadius": 4,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "QxU2b",
-                      "name": "slashText",
-                      "fill": "$text-secondary",
-                      "content": "/",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
                 }
               ]
             },
@@ -1568,7 +1750,6 @@
                   "name": "signupBtn",
                   "height": 36,
                   "fill": "$btn-primary-bg",
-                  "cornerRadius": 8,
                   "padding": [
                     0,
                     16
@@ -1770,35 +1951,6 @@
               "fontFamily": "Inter",
               "fontSize": 14,
               "fontWeight": "500"
-            },
-            {
-              "type": "frame",
-              "id": "TOo3i",
-              "name": "moreWrap",
-              "gap": 4,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "Pta23",
-                  "name": "moreText",
-                  "fill": "$text-secondary",
-                  "content": "More",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "icon_font",
-                  "id": "8Zy3B",
-                  "name": "moreIcon",
-                  "width": 14,
-                  "height": 14,
-                  "iconFontName": "chevron-down",
-                  "iconFontFamily": "lucide",
-                  "fill": "$text-secondary"
-                }
-              ]
             }
           ]
         },
@@ -1832,7 +1984,8 @@
               "fill": "$text-secondary",
               "content": "Back to Global Elections",
               "fontFamily": "Inter",
-              "fontSize": 14
+              "fontSize": 14,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -1865,7 +2018,8 @@
                   "fill": "$text-muted",
                   "content": "World · Global Elections",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "frame",
@@ -1889,7 +2043,6 @@
                           "width": 48,
                           "height": 32,
                           "fill": "#CD2A3E",
-                          "cornerRadius": 4,
                           "layout": "vertical",
                           "children": [
                             {
@@ -1963,7 +2116,6 @@
               "name": "Outcomes Section",
               "width": "fill_container",
               "fill": "$bg-card",
-              "cornerRadius": 12,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
@@ -2035,8 +2187,7 @@
                           "name": "avatar1",
                           "width": 36,
                           "height": 36,
-                          "fill": "#E5E7EB",
-                          "cornerRadius": 100
+                          "fill": "#E5E7EB"
                         },
                         {
                           "type": "text",
@@ -2047,80 +2198,6 @@
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "500"
-                        },
-                        {
-                          "type": "text",
-                          "id": "tfqHE",
-                          "name": "vol1",
-                          "fill": "$text-muted",
-                          "content": "$3,612,523 Vol.",
-                          "fontFamily": "Inter",
-                          "fontSize": 12
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "VIgMD",
-                      "name": "rowRight1",
-                      "gap": 16,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "sUGEK",
-                          "name": "pct1",
-                          "fill": "$text-primary",
-                          "content": "64%",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "zSOxo",
-                          "name": "buyYes1",
-                          "width": 120,
-                          "height": 36,
-                          "fill": "$green-bg",
-                          "cornerRadius": 8,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "OAJnU",
-                              "name": "buyYesTxt1",
-                              "fill": "$green-text",
-                              "content": "Buy Yes 64¢",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "Y8Jyb",
-                          "name": "buyNo1",
-                          "width": 120,
-                          "height": 36,
-                          "fill": "$red-bg",
-                          "cornerRadius": 8,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "llBXZ",
-                              "name": "buyNoTxt1",
-                              "fill": "$red-text",
-                              "content": "Buy No 37¢",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -2159,8 +2236,7 @@
                           "name": "av2",
                           "width": 36,
                           "height": 36,
-                          "fill": "#D1D5DB",
-                          "cornerRadius": 100
+                          "fill": "#D1D5DB"
                         },
                         {
                           "type": "text",
@@ -2171,81 +2247,6 @@
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "500"
-                        },
-                        {
-                          "type": "text",
-                          "id": "KHxvx",
-                          "name": "vl2",
-                          "fill": "$text-muted",
-                          "content": "$1,245,890 Vol.",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "28RIm",
-                      "name": "rr2",
-                      "gap": 16,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "YZxSz",
-                          "name": "pc2",
-                          "fill": "$text-primary",
-                          "content": "36%",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "6mD59",
-                          "name": "by2",
-                          "width": 120,
-                          "height": 36,
-                          "fill": "$green-bg",
-                          "cornerRadius": 8,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "7z2tZ",
-                              "name": "byt2",
-                              "fill": "$green-text",
-                              "content": "Buy Yes 36¢",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "hOsev",
-                          "name": "bn2",
-                          "width": 120,
-                          "height": 36,
-                          "fill": "$red-bg",
-                          "cornerRadius": 8,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "GpwMR",
-                              "name": "bnt2",
-                              "fill": "$red-text",
-                              "content": "Buy No 65¢",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -2284,8 +2285,7 @@
                           "name": "av3",
                           "width": 36,
                           "height": 36,
-                          "fill": "#E5E7EB",
-                          "cornerRadius": 100
+                          "fill": "#E5E7EB"
                         },
                         {
                           "type": "text",
@@ -2296,81 +2296,6 @@
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "500"
-                        },
-                        {
-                          "type": "text",
-                          "id": "SUgPL",
-                          "name": "vl3",
-                          "fill": "$text-muted",
-                          "content": "$89,200 Vol.",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "qcrji",
-                      "name": "rr3",
-                      "gap": 16,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "9CEre",
-                          "name": "pc3",
-                          "fill": "$text-primary",
-                          "content": "1%",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "uLJcc",
-                          "name": "by3",
-                          "width": 120,
-                          "height": 36,
-                          "fill": "$green-bg",
-                          "cornerRadius": 8,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "c2ool",
-                              "name": "byt3",
-                              "fill": "$green-text",
-                              "content": "Buy Yes 1¢",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "CNAdp",
-                          "name": "bn3",
-                          "width": 120,
-                          "height": 36,
-                          "fill": "$red-bg",
-                          "cornerRadius": 8,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "oceiM",
-                              "name": "bnt3",
-                              "fill": "$red-text",
-                              "content": "Buy No 99¢",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -2402,8 +2327,7 @@
                           "name": "av4",
                           "width": 36,
                           "height": 36,
-                          "fill": "#E5E7EB",
-                          "cornerRadius": 100
+                          "fill": "#E5E7EB"
                         },
                         {
                           "type": "text",
@@ -2414,81 +2338,6 @@
                           "fontFamily": "Inter",
                           "fontSize": 14,
                           "fontWeight": "500"
-                        },
-                        {
-                          "type": "text",
-                          "id": "l0UKe",
-                          "name": "vl4",
-                          "fill": "$text-muted",
-                          "content": "$42,100 Vol.",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "ubDMc",
-                      "name": "rr4",
-                      "gap": 16,
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "x8oHx",
-                          "name": "pc4",
-                          "fill": "$text-primary",
-                          "content": "<1%",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "x3qTd",
-                          "name": "by4",
-                          "width": 120,
-                          "height": 36,
-                          "fill": "$green-bg",
-                          "cornerRadius": 8,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "17hu8",
-                              "name": "byt4",
-                              "fill": "$green-text",
-                              "content": "Buy Yes 1¢",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "NBE55",
-                          "name": "bn4",
-                          "width": 120,
-                          "height": 36,
-                          "fill": "$red-bg",
-                          "cornerRadius": 8,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "RSNzc",
-                              "name": "bnt4",
-                              "fill": "$red-text",
-                              "content": "Buy No 99¢",
-                              "fontFamily": "Inter",
-                              "fontSize": 13,
-                              "fontWeight": "600"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -2502,7 +2351,6 @@
               "name": "Rules Section",
               "width": "fill_container",
               "fill": "$bg-card",
-              "cornerRadius": 12,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
@@ -2547,7 +2395,8 @@
                       "fill": "$text-muted",
                       "content": "Market Context",
                       "fontFamily": "Inter",
-                      "fontSize": 15
+                      "fontSize": 15,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -2570,7 +2419,8 @@
                       "content": "Parliamentary elections are scheduled to be held in Hungary on April 12 2026.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2582,7 +2432,8 @@
                       "content": "This market will resolve to the individual who is next officially appointed and confirmed as Prime Minister of Hungary following the 2026 parliamentary election.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2594,7 +2445,8 @@
                       "content": "To count for resolution, the individual must be formally elected and appointed to the role of Prime Minister. Any interim or caretaker Prime Minister will not count toward the resolution of this market.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2606,7 +2458,8 @@
                       "content": "If no such Prime Minister is confirmed by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other.\"",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2618,7 +2471,8 @@
                       "content": "The primary resolution source for this market will be official information from the Government of Hungary; however, a consensus of credible reporting may also be used.",
                       "lineHeight": 1.5,
                       "fontFamily": "Inter",
-                      "fontSize": 14
+                      "fontSize": 14,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -2636,11 +2490,731 @@
             },
             {
               "type": "frame",
+              "id": "5KSvY",
+              "name": "AI Assessment",
+              "width": "fill_container",
+              "fill": "$bg-card",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-card"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "X1ft4",
+                  "name": "aiHeader",
+                  "width": "fill_container",
+                  "height": 52,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "$border-subtle"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    20
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "7DbPf",
+                      "name": "aiLeft",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "WyDc2",
+                          "name": "aiIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "bot",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-blue"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VtJBH",
+                          "name": "aiTitle",
+                          "fill": "$text-primary",
+                          "content": "AI Assessment",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oUPAn",
+                      "name": "aiBadge",
+                      "height": 22,
+                      "fill": "$badge-bg",
+                      "padding": [
+                        0,
+                        8
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hErUx",
+                          "name": "aiBadgeTxt",
+                          "fill": "$text-muted",
+                          "content": "AUTO-GENERATED",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xwljB",
+                  "name": "aiBody",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fPh0y",
+                      "name": "overallRow",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bAKFH",
+                          "name": "scoreCard",
+                          "width": "fill_container",
+                          "fill": "#F0F4FF",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#D0D9F0"
+                          },
+                          "layout": "vertical",
+                          "gap": 8,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "l2osV",
+                              "name": "scoreLabel",
+                              "fill": "$text-muted",
+                              "content": "OVERALL SCORE",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.8
+                            },
+                            {
+                              "type": "text",
+                              "id": "t52v1",
+                              "name": "scoreVal",
+                              "fill": "#1B2CC1",
+                              "content": "7.4 / 10",
+                              "fontFamily": "Inter",
+                              "fontSize": 28,
+                              "fontWeight": "800",
+                              "letterSpacing": -1
+                            },
+                            {
+                              "type": "text",
+                              "id": "IUYKI",
+                              "name": "scoreDesc",
+                              "fill": "$text-secondary",
+                              "content": "Good — market is well-defined with minor risks",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9iLtc",
+                          "name": "verdictCard",
+                          "width": "fill_container",
+                          "fill": "#F0FDF4",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "#BBF7D0"
+                          },
+                          "layout": "vertical",
+                          "gap": 8,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HAJ4l",
+                              "name": "verdictLabel",
+                              "fill": "$text-muted",
+                              "content": "VERDICT",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.8
+                            },
+                            {
+                              "type": "text",
+                              "id": "7c50r",
+                              "name": "verdictVal",
+                              "fill": "#16A34A",
+                              "content": "LIKELY VALID",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800",
+                              "letterSpacing": 0.5
+                            },
+                            {
+                              "type": "text",
+                              "id": "e7L4E",
+                              "name": "verdictDesc",
+                              "fill": "$text-secondary",
+                              "content": "Event is verifiable with official government sources",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i58ij",
+                      "name": "metricsGrid",
+                      "width": "fill_container",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "YvnA0",
+                          "name": "m1",
+                          "width": "fill_container",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": {
+                              "right": 1
+                            },
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            14,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yZLNO",
+                              "name": "m1label",
+                              "fill": "$text-muted",
+                              "content": "SOURCE RELIABILITY",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Cs2v6",
+                              "name": "m1barBg",
+                              "width": "fill_container",
+                              "height": 6,
+                              "fill": "$badge-bg",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "AhRbR",
+                                  "name": "m1barFill",
+                                  "fill": "#1B2CC1",
+                                  "width": 160,
+                                  "height": 6
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NIWXo",
+                              "name": "m1valRow",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "nsfUa",
+                                  "name": "m1score",
+                                  "fill": "$text-primary",
+                                  "content": "8.0",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "g5MlH",
+                                  "name": "m1note",
+                                  "fill": "$text-muted",
+                                  "content": "Official gov sources",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AExss",
+                          "name": "m2",
+                          "width": "fill_container",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": {
+                              "right": 1
+                            },
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            14,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KZYDE",
+                              "name": "m2label",
+                              "fill": "$text-muted",
+                              "content": "RULE CLARITY",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            },
+                            {
+                              "type": "frame",
+                              "id": "8iTaX",
+                              "name": "m2barBg",
+                              "width": "fill_container",
+                              "height": 6,
+                              "fill": "$badge-bg",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "geNhM",
+                                  "name": "m2barFill",
+                                  "fill": "#1B2CC1",
+                                  "width": 140,
+                                  "height": 6
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RJOY3",
+                              "name": "m2valRow",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "SSwhk",
+                                  "name": "m2score",
+                                  "fill": "$text-primary",
+                                  "content": "7.0",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "oR3Qo",
+                                  "name": "m2note",
+                                  "fill": "$text-muted",
+                                  "content": "Minor ambiguity",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UWRBc",
+                          "name": "m3",
+                          "width": "fill_container",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": {
+                              "right": 1
+                            },
+                            "fill": "$border-subtle"
+                          },
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            14,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SSxFM",
+                              "name": "m3label",
+                              "fill": "$text-muted",
+                              "content": "RISK LEVEL",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YkaeC",
+                              "name": "m3barBg",
+                              "width": "fill_container",
+                              "height": 6,
+                              "fill": "$badge-bg",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "7vKcv",
+                                  "name": "m3barFill",
+                                  "fill": "#D97706",
+                                  "width": 70,
+                                  "height": 6
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "KLY7h",
+                              "name": "m3valRow",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "VHeSc",
+                                  "name": "m3score",
+                                  "fill": "$text-primary",
+                                  "content": "3.5",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "OG26l",
+                                  "name": "m3note",
+                                  "fill": "#D97706",
+                                  "content": "Low–Medium",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dAdyL",
+                          "name": "m4",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "padding": [
+                            14,
+                            16
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "DHJeh",
+                              "name": "m4label",
+                              "fill": "$text-muted",
+                              "content": "OUTCOME BALANCE",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NE36V",
+                              "name": "m4barBg",
+                              "width": "fill_container",
+                              "height": 6,
+                              "fill": "$badge-bg",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "MrOh5",
+                                  "name": "m4barFill",
+                                  "fill": "#16A34A",
+                                  "width": 120,
+                                  "height": 6
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "9jTfn",
+                              "name": "m4valRow",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "EoEhj",
+                                  "name": "m4score",
+                                  "fill": "$text-primary",
+                                  "content": "6.0",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": "800"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "H82U8",
+                                  "name": "m4note",
+                                  "fill": "$text-muted",
+                                  "content": "4 outcomes defined",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q8J9N",
+                      "name": "aiSummary",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        0,
+                        4,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kjUws",
+                          "name": "sumTitle",
+                          "fill": "$text-muted",
+                          "content": "AI ANALYSIS SUMMARY",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "oJJzi",
+                          "name": "sumText",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "This market is well-structured with clear resolution criteria tied to an official government appointment. The primary risk is political instability that could delay the confirmation process beyond the deadline. Sources are strong — official Hungarian government channels and Reuters provide reliable verification. Edge case handling (resolve to \"Other\" if no PM by Dec 31) is adequate but could be more specific about coalition scenarios.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "G0xFx",
+                      "name": "flagsRow",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "vYbwc",
+                          "name": "flag1",
+                          "height": 24,
+                          "fill": "#FEF3C7",
+                          "gap": 4,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "e9cmC",
+                              "name": "flagIcon1",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "triangle-alert",
+                              "iconFontFamily": "lucide",
+                              "fill": "#D97706"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ouA5a",
+                              "name": "flagTxt1",
+                              "fill": "#92400E",
+                              "content": "Coalition risk",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "iJLmM",
+                          "name": "flag2",
+                          "height": 24,
+                          "fill": "#FEF3C7",
+                          "gap": 4,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "Noui8",
+                              "name": "flagIcon2",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "triangle-alert",
+                              "iconFontFamily": "lucide",
+                              "fill": "#D97706"
+                            },
+                            {
+                              "type": "text",
+                              "id": "g9JuJ",
+                              "name": "flagTxt2",
+                              "fill": "#92400E",
+                              "content": "Deadline sensitivity",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IpqtV",
+                          "name": "flag3",
+                          "height": 24,
+                          "fill": "#DCFCE7",
+                          "gap": 4,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "1Gf1E",
+                              "name": "flagIcon3",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "check",
+                              "iconFontFamily": "lucide",
+                              "fill": "#16A34A"
+                            },
+                            {
+                              "type": "text",
+                              "id": "XvO6r",
+                              "name": "flagTxt3",
+                              "fill": "#166534",
+                              "content": "Strong sources",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7nQz1",
+                          "name": "flag4",
+                          "height": 24,
+                          "fill": "#DCFCE7",
+                          "gap": 4,
+                          "padding": [
+                            0,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "9GyXU",
+                              "name": "flagIcon4",
+                              "width": 12,
+                              "height": 12,
+                              "iconFontName": "check",
+                              "iconFontFamily": "lucide",
+                              "fill": "#16A34A"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hGR1H",
+                              "name": "flagTxt4",
+                              "fill": "#166534",
+                              "content": "Clear resolution path",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "7hrkW",
               "name": "Comments Section",
               "width": "fill_container",
               "fill": "$bg-card",
-              "cornerRadius": 12,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
@@ -2707,7 +3281,6 @@
                       "width": "fill_container",
                       "height": 40,
                       "fill": "#F3F4F6",
-                      "cornerRadius": 8,
                       "padding": [
                         0,
                         14
@@ -2733,7 +3306,6 @@
                       "width": 64,
                       "height": 40,
                       "fill": "$btn-primary-bg",
-                      "cornerRadius": 8,
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
@@ -2805,7 +3377,8 @@
                           "fill": "$text-muted",
                           "content": "Holders",
                           "fontFamily": "Inter",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -2845,8 +3418,7 @@
                       "name": "av1",
                       "width": 36,
                       "height": 36,
-                      "fill": "#D1D5DB",
-                      "cornerRadius": 100
+                      "fill": "#D1D5DB"
                     },
                     {
                       "type": "frame",
@@ -2879,7 +3451,6 @@
                               "name": "commBadge1",
                               "height": 20,
                               "fill": "#EFF6FF",
-                              "cornerRadius": 4,
                               "padding": [
                                 0,
                                 8
@@ -3011,8 +3582,7 @@
                       "name": "av2",
                       "width": 36,
                       "height": 36,
-                      "fill": "#93C5FD",
-                      "cornerRadius": 100
+                      "fill": "#93C5FD"
                     },
                     {
                       "type": "frame",
@@ -3045,7 +3615,6 @@
                               "name": "badge2",
                               "height": 20,
                               "fill": "#F0FDF4",
-                              "cornerRadius": 4,
                               "padding": [
                                 0,
                                 8
@@ -3167,8 +3736,7 @@
                               "name": "rAv1",
                               "width": 28,
                               "height": 28,
-                              "fill": "#C4B5FD",
-                              "cornerRadius": 100
+                              "fill": "#C4B5FD"
                             },
                             {
                               "type": "frame",
@@ -3267,7 +3835,7 @@
       "type": "frame",
       "id": "6yDKu",
       "x": 0,
-      "y": 2412,
+      "y": 2885,
       "name": "Propose Event Page",
       "width": 1280,
       "fill": "$bg-page",
@@ -3302,84 +3870,27 @@
               "alignItems": "center",
               "children": [
                 {
-                  "type": "icon_font",
-                  "id": "oyzFS",
-                  "name": "logoIcon",
+                  "type": "frame",
+                  "id": "UzmaX",
+                  "name": "logo3",
                   "width": 28,
                   "height": 28,
-                  "iconFontName": "hexagon",
-                  "iconFontFamily": "lucide",
-                  "fill": "$accent-blue"
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/icon-radar.png",
+                    "mode": "fit"
+                  }
                 },
                 {
                   "type": "text",
                   "id": "bVbQW",
                   "name": "logoText",
                   "fill": "$text-primary",
-                  "content": "Polymarket",
+                  "content": "PolyVote",
                   "fontFamily": "Inter",
                   "fontSize": 20,
                   "fontWeight": "700"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "0HzU0",
-              "name": "searchBar",
-              "width": 400,
-              "height": 40,
-              "fill": "#F3F4F6",
-              "cornerRadius": 8,
-              "gap": 8,
-              "padding": [
-                0,
-                14
-              ],
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon_font",
-                  "id": "dPq4O",
-                  "name": "searchIcon",
-                  "width": 16,
-                  "height": 16,
-                  "iconFontName": "search",
-                  "iconFontFamily": "lucide",
-                  "fill": "$text-muted"
-                },
-                {
-                  "type": "text",
-                  "id": "9EVai",
-                  "name": "searchText",
-                  "fill": "$text-muted",
-                  "content": "Search polymarkets...",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "frame",
-                  "id": "0p3QM",
-                  "name": "searchSlash",
-                  "width": 24,
-                  "height": 24,
-                  "fill": "#E5E7EB",
-                  "cornerRadius": 4,
-                  "justifyContent": "center",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "BB9T9",
-                      "name": "slashText",
-                      "fill": "$text-secondary",
-                      "content": "/",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "normal"
-                    }
-                  ]
                 }
               ]
             },
@@ -3416,7 +3927,6 @@
                   "name": "signupBtn",
                   "height": 36,
                   "fill": "$btn-primary-bg",
-                  "cornerRadius": 8,
                   "padding": [
                     0,
                     16
@@ -3618,35 +4128,6 @@
               "fontFamily": "Inter",
               "fontSize": 14,
               "fontWeight": "500"
-            },
-            {
-              "type": "frame",
-              "id": "kb2jj",
-              "name": "moreWrap",
-              "gap": 4,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "8mhiq",
-                  "name": "moreText",
-                  "fill": "$text-secondary",
-                  "content": "More",
-                  "fontFamily": "Inter",
-                  "fontSize": 14,
-                  "fontWeight": "500"
-                },
-                {
-                  "type": "icon_font",
-                  "id": "Z2HIi",
-                  "name": "moreIcon",
-                  "width": 14,
-                  "height": 14,
-                  "iconFontName": "chevron-down",
-                  "iconFontFamily": "lucide",
-                  "fill": "$text-secondary"
-                }
-              ]
             }
           ]
         },
@@ -3738,7 +4219,6 @@
               "name": "Form Card",
               "width": "fill_container",
               "fill": "$bg-card",
-              "cornerRadius": 12,
               "stroke": {
                 "align": "inside",
                 "thickness": 1,
@@ -3821,7 +4301,6 @@
                           "name": "input1",
                           "width": "fill_container",
                           "height": 44,
-                          "cornerRadius": 8,
                           "stroke": {
                             "align": "inside",
                             "thickness": 1,
@@ -3871,7 +4350,6 @@
                           "name": "select2",
                           "width": "fill_container",
                           "height": 44,
-                          "cornerRadius": 8,
                           "stroke": {
                             "align": "inside",
                             "thickness": 1,
@@ -3939,7 +4417,6 @@
                               "name": "input3",
                               "width": "fill_container",
                               "height": 44,
-                              "cornerRadius": 8,
                               "stroke": {
                                 "align": "inside",
                                 "thickness": 1,
@@ -4000,7 +4477,6 @@
                               "name": "input3b",
                               "width": "fill_container",
                               "height": 44,
-                              "cornerRadius": 8,
                               "stroke": {
                                 "align": "inside",
                                 "thickness": 1,
@@ -4075,7 +4551,6 @@
                           "name": "textarea4",
                           "width": "fill_container",
                           "height": 120,
-                          "cornerRadius": 8,
                           "stroke": {
                             "align": "inside",
                             "thickness": 1,
@@ -4190,7 +4665,6 @@
                           "name": "rulesTextarea",
                           "width": "fill_container",
                           "height": 140,
-                          "cornerRadius": 8,
                           "stroke": {
                             "align": "inside",
                             "thickness": 1,
@@ -4252,7 +4726,6 @@
                           "name": "condTextarea",
                           "width": "fill_container",
                           "height": 80,
-                          "cornerRadius": 8,
                           "stroke": {
                             "align": "inside",
                             "thickness": 1,
@@ -4358,7 +4831,6 @@
                           "width": 24,
                           "height": 24,
                           "fill": "#EEF2FF",
-                          "cornerRadius": 100,
                           "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
@@ -4380,7 +4852,6 @@
                           "name": "srcInput1",
                           "width": "fill_container",
                           "height": 44,
-                          "cornerRadius": 8,
                           "stroke": {
                             "align": "inside",
                             "thickness": 1,
@@ -4431,7 +4902,6 @@
                           "width": 24,
                           "height": 24,
                           "fill": "#EEF2FF",
-                          "cornerRadius": 100,
                           "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
@@ -4453,7 +4923,6 @@
                           "name": "srcInput2",
                           "width": "fill_container",
                           "height": 44,
-                          "cornerRadius": 8,
                           "stroke": {
                             "align": "inside",
                             "thickness": 1,
@@ -4494,7 +4963,6 @@
                       "id": "2Nn1w",
                       "name": "addSrcBtn",
                       "height": 36,
-                      "cornerRadius": 8,
                       "stroke": {
                         "align": "inside",
                         "thickness": 1,
@@ -4610,7 +5078,6 @@
                           "width": 24,
                           "height": 24,
                           "fill": "$green-bg",
-                          "cornerRadius": 100,
                           "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
@@ -4632,7 +5099,6 @@
                           "name": "outInput1",
                           "width": "fill_container",
                           "height": 44,
-                          "cornerRadius": 8,
                           "stroke": {
                             "align": "inside",
                             "thickness": 1,
@@ -4683,7 +5149,6 @@
                           "width": 24,
                           "height": 24,
                           "fill": "$green-bg",
-                          "cornerRadius": 100,
                           "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
@@ -4705,7 +5170,6 @@
                           "name": "outInput2",
                           "width": "fill_container",
                           "height": 44,
-                          "cornerRadius": 8,
                           "stroke": {
                             "align": "inside",
                             "thickness": 1,
@@ -4756,7 +5220,6 @@
                           "width": 24,
                           "height": 24,
                           "fill": "$green-bg",
-                          "cornerRadius": 100,
                           "justifyContent": "center",
                           "alignItems": "center",
                           "children": [
@@ -4778,7 +5241,6 @@
                           "name": "outInput3",
                           "width": "fill_container",
                           "height": 44,
-                          "cornerRadius": 8,
                           "stroke": {
                             "align": "inside",
                             "thickness": 1,
@@ -4819,7 +5281,6 @@
                       "id": "ykZCm",
                       "name": "addOutBtn",
                       "height": 36,
-                      "cornerRadius": 8,
                       "stroke": {
                         "align": "inside",
                         "thickness": 1,
@@ -4908,7 +5369,6 @@
                       "id": "RKCPw",
                       "name": "draftBtn",
                       "height": 44,
-                      "cornerRadius": 8,
                       "stroke": {
                         "align": "inside",
                         "thickness": 1,
@@ -4939,7 +5399,6 @@
                       "name": "submitBtn",
                       "height": 44,
                       "fill": "$btn-primary-bg",
-                      "cornerRadius": 8,
                       "gap": 8,
                       "padding": [
                         0,
@@ -4982,79 +5441,232 @@
   "variables": {
     "accent-blue": {
       "type": "color",
-      "value": "#2563EB"
+      "value": [
+        {
+          "value": "#2563EB"
+        },
+        {
+          "value": "#1B2CC1"
+        }
+      ]
     },
     "accent-green": {
       "type": "color",
-      "value": "#22C55E"
+      "value": [
+        {
+          "value": "#22C55E"
+        },
+        {
+          "value": "#16A34A"
+        }
+      ]
     },
     "accent-red": {
       "type": "color",
-      "value": "#EF4444"
+      "value": [
+        {
+          "value": "#EF4444"
+        },
+        {
+          "value": "#DC2626"
+        }
+      ]
     },
     "bg-card": {
       "type": "color",
-      "value": "#FFFFFF"
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#FFFFFF"
+        }
+      ]
     },
     "bg-header": {
       "type": "color",
-      "value": "#FFFFFF"
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#FFFFFF"
+        }
+      ]
     },
     "bg-page": {
       "type": "color",
-      "value": "#F7F7F8"
+      "value": [
+        {
+          "value": "#F7F7F8"
+        },
+        {
+          "value": "#F0F0EC"
+        }
+      ]
     },
     "border-card": {
       "type": "color",
-      "value": "#E8E8EC"
+      "value": [
+        {
+          "value": "#E8E8EC"
+        },
+        {
+          "value": "#C8C8C4"
+        }
+      ]
     },
     "border-subtle": {
       "type": "color",
-      "value": "#E5E7EB"
+      "value": [
+        {
+          "value": "#E5E7EB"
+        },
+        {
+          "value": "#D4D4D0"
+        }
+      ]
     },
     "btn-primary-bg": {
       "type": "color",
-      "value": "#2563EB"
+      "value": [
+        {
+          "value": "#2563EB"
+        },
+        {
+          "value": "#111111"
+        }
+      ]
     },
     "btn-primary-text": {
       "type": "color",
-      "value": "#FFFFFF"
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#FFFFFF"
+        }
+      ]
     },
     "filter-active-bg": {
       "type": "color",
-      "value": "#EEF2FF"
+      "value": [
+        {
+          "value": "#EEF2FF"
+        },
+        {
+          "value": "#1B2CC1"
+        }
+      ]
     },
     "filter-active-text": {
       "type": "color",
-      "value": "#4F46E5"
+      "value": [
+        {
+          "value": "#4F46E5"
+        },
+        {
+          "value": "#FFFFFF"
+        }
+      ]
     },
     "green-bg": {
       "type": "color",
-      "value": "#DCFCE7"
+      "value": [
+        {
+          "value": "#DCFCE7"
+        },
+        {
+          "value": "#16A34A"
+        }
+      ]
     },
     "green-text": {
       "type": "color",
-      "value": "#16A34A"
+      "value": [
+        {
+          "value": "#16A34A"
+        },
+        {
+          "value": "#FFFFFF"
+        }
+      ]
     },
     "red-bg": {
       "type": "color",
-      "value": "#FEE2E2"
+      "value": [
+        {
+          "value": "#FEE2E2"
+        },
+        {
+          "value": "#DC2626"
+        }
+      ]
     },
     "red-text": {
       "type": "color",
-      "value": "#DC2626"
+      "value": [
+        {
+          "value": "#DC2626"
+        },
+        {
+          "value": "#FFFFFF"
+        }
+      ]
     },
     "text-muted": {
       "type": "color",
-      "value": "#9CA3AF"
+      "value": [
+        {
+          "value": "#9CA3AF"
+        },
+        {
+          "value": "#999999"
+        }
+      ]
     },
     "text-primary": {
       "type": "color",
-      "value": "#1A1A2E"
+      "value": [
+        {
+          "value": "#1A1A2E"
+        },
+        {
+          "value": "#111111"
+        }
+      ]
     },
     "text-secondary": {
       "type": "color",
-      "value": "#6B7280"
+      "value": [
+        {
+          "value": "#6B7280"
+        },
+        {
+          "value": "#555555"
+        }
+      ]
+    },
+    "badge-bg": {
+      "type": "color",
+      "value": "#EEEEEA"
+    },
+    "hero-bg": {
+      "type": "color",
+      "value": "#2B3AE0"
+    },
+    "hero-text": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "table-header": {
+      "type": "color",
+      "value": "#111111"
+    },
+    "table-header-text": {
+      "type": "color",
+      "value": "#FFFFFF"
     }
   }
 }
