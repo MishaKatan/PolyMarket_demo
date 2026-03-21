@@ -1,0 +1,7 @@
+services:
+  polyvote:
+    build:
+      context: .
+    ports:
+      - "80:80"
+    restart: unless-stopped
